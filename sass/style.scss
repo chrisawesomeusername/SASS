@@ -1,0 +1,24 @@
+@import 'cssReset';
+@import 'variables';
+@import 'images';
+@import 'nav';
+@import 'icons';
+
+
+
+
+body{
+	background: $backColor;
+	color: $fontColor;
+}
+
+.heading{
+	width: $headingWidth;
+	margin: $headingMargin;
+	font-family: $headingFont;
+	padding-top: $headingPadding;
+	text-align: justify;
+
+	font-size: $headingSize;
+}
+

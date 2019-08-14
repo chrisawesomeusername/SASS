@@ -1,0 +1,28 @@
+nav{
+	padding: $navPadding;
+	font-family: $headingFont;
+	border: 2px solid $fontColor;
+	background: lightblue;
+	width: 100px;
+	height: 100vh;
+	display: none;
+	z-index: 5;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+
+
+	ul{
+		li{
+			padding: $navPadding/10;
+			a{
+				color: $fontColor;
+				font-size: 30px;
+			}
+		}
+	}
+}
+
+.active{
+	display: block;
+}
