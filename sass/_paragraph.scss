@@ -1,0 +1,28 @@
+.paraAll{
+  width: 60%;
+  margin:auto;
+}
+
+
+.paraLeft{
+  float: left;
+  width: 45%;
+  // margin-left: 50px;
+}
+.paraRight{
+  float: right;
+  width: 45%;
+  // margin-right: 50px;
+}
+ .text{
+   font-family: $headingFont;
+   font-size: 25px;
+   text-align: justify;
+ }
+
+ .list1{
+   @extend .paraLeft;
+   @extend .text;
+   margin-top: 40px;
+   list-style: circle;
+ }

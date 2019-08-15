@@ -1,9 +1,9 @@
 nav{
-	padding: $navPadding;
+	padding-top: 80px;
 	font-family: $headingFont;
-	border: 2px solid $fontColor;
+	// border: 2px solid $fontColor;
 	background: lightblue;
-	width: 100px;
+	width: 200px;
 	height: 100vh;
 	display: none;
 	z-index: 5;
@@ -15,6 +15,7 @@ nav{
 	ul{
 		li{
 			padding: $navPadding/10;
+			list-style: none;
 			a{
 				color: $fontColor;
 				font-size: 30px;

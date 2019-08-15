@@ -1,8 +1,11 @@
 @import 'cssReset';
 @import 'variables';
+@import 'mixins';
 @import 'images';
 @import 'nav';
 @import 'icons';
+@import 'paragraph';
+@import 'buttons';
 
 
 
@@ -17,8 +20,7 @@ body{
 	margin: $headingMargin;
 	font-family: $headingFont;
 	padding-top: $headingPadding;
-	text-align: justify;
+	text-align: center;
 
 	font-size: $headingSize;
 }
-
