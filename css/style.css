@@ -48,24 +48,28 @@ nav {
   width: 60%;
   margin: auto; }
 
-.paraLeft, .list1 {
+.paraLeft {
   float: left;
   width: 45%; }
 
-.paraRight {
+.paraRight, #list1 {
   float: right;
   width: 45%; }
 
-.text, .list1 {
+.text, #list1 {
   font-family: helvetica;
   font-size: 25px;
   text-align: justify; }
 
-.list1 {
+#list1 {
   margin-top: 40px;
   list-style: circle; }
 
-.btn {
+.showBtn {
+  width: 300px;
+  height: 60px; }
+
+.hideBtn {
   width: 300px;
   height: 60px; }
 

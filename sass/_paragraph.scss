@@ -20,8 +20,8 @@
    text-align: justify;
  }
 
- .list1{
-   @extend .paraLeft;
+ #list1{
+   @extend .paraRight;
    @extend .text;
    margin-top: 40px;
    list-style: circle;

@@ -1,3 +1,8 @@
-.btn{
+.showBtn{
+  @include dimension (300px, 60px)
+}
+
+
+.hideBtn{
   @include dimension (300px, 60px)
 }
